@@ -7,7 +7,7 @@
         "../sass/utils/_common.scss",
         "../sass/components/_button.scss",
         "../sass/components/_container.scss",
-        "../sass/components/_page-header.scss",
+        "../sass/components/_header.scss",
         "../sass/components/_site-nav.scss",
         "../sass/utils/_placeholders.scss",
         "../sass/components/_auth-nav.scss",
