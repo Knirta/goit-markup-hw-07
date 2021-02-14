@@ -125,6 +125,21 @@ img {
   cursor: pointer;
 }
 
+.button--with-icon {
+  position: relative;
+  padding-right: 62px;
+  text-align: right;
+}
+
+.button__icon {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  fill: currentColor;
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -333,5 +348,45 @@ img {
 .footer__mailing {
   padding-top: 12px;
   margin-left: auto;
+}
+
+.footer__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__form-input {
+  width: 358px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer__form-input::-webkit-input-placeholder {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__form-input:-ms-input-placeholder {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__form-input::-ms-input-placeholder {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__form-input::placeholder {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
 }
 /*# sourceMappingURL=portfolio.css.map */
