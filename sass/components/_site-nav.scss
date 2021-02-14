@@ -1,4 +1,4 @@
-@import '../utils/placeholders';
+@import './header-link';
 
 .site-nav {
   display: flex;
@@ -11,7 +11,7 @@
 }
 
 .site-nav__link {
-  @extend %link;
+  @extend .header-link;
   display: block;
 
   color: $title-text-color;

@@ -1,3 +1,4 @@
+@import './logo';
 @import './site-nav';
 @import './auth-nav';
 
@@ -13,18 +14,4 @@
 .header__main-nav {
   display: flex;
   align-items: center;
-}
-
-.header__logo {
-  display: block;
-  margin-right: 93px;
-
-  color: #000000;
-  font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-
-  span {
-    color: $accent-color;
-  }
 }

@@ -1,0 +1,14 @@
+@import 'logo';
+@import 'foot-contacts';
+
+.footer {
+  background-color: $dark-background-color;
+  color: $primary-background-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__container {
+  display: flex;
+  align-items: flex-start;
+}
