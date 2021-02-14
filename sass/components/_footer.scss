@@ -1,6 +1,5 @@
-@import 'logo';
-@import 'foot-contacts';
-@import 'social-links';
+@import './logo';
+@import './foot-contacts';
 
 .footer {
   background-color: $dark-background-color;
@@ -25,14 +24,7 @@
   text-transform: uppercase;
 }
 
-.social-links__link--in-footer {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &focus {
-    background-color: $accent-color;
-  }
+.footer__mailing {
+  padding-top: 12px;
+  margin-left: auto;
 }
