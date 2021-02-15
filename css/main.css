@@ -324,7 +324,7 @@ summary {
   display: list-item;
 }
 
-.advantages, .activities, .team, .clients, .portfolio {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -1229,11 +1229,11 @@ img {
   letter-spacing: 0.06em;
 }
 
-.activities--no-top-padding {
+.section--no-top-padding {
   padding-top: 0;
 }
 
-.team--secondary-background {
+.section--secondary-background {
   background-color: #f5f4fa;
 }
 
